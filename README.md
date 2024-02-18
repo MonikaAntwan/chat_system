@@ -13,7 +13,9 @@ Prerequisites:
 
 Steps to get the application up and running:
 
-1. Extract the project on your computer and navigate to it's folder
+1. Clone the the repository from github and navigate to it's folder
+
+git clone https://github.com/MonikaAntwan/chat_system.git
 
 cd path/chat_system
 
