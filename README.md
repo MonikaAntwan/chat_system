@@ -30,6 +30,7 @@ path: config/database.yml
 Run the following commands to create and setup the database.
 
 bundle exec rake db:create
+
 bundle exec rake db:migrate
 
 4. Start the Rails server and sidekiq
@@ -37,7 +38,9 @@ bundle exec rake db:migrate
 You can start the rails server and sidekiq using the commands given below.
 
 bundle exec rails s
+
 bundle exec sidekiq
+
 
 
 Now http://localhost:3000 should show the default Rails page and you can now access any enpoint.
